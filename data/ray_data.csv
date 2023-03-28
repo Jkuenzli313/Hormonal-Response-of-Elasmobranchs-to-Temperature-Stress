@@ -1,0 +1,43 @@
+Date,Net #,Ray ID,Photo ID (Y/N),Species,Sex,Disc Width (cm),Length (cm),Release Condition,Amount of blood taken (um),Notes,Testosterone OD (males),Testosterone Concentrations (pg/mL)  (males) ,Progesterone OD (Females),Progesterone Concentrations (Females),Estradiol OD (Females),Estradiol Concentrations (Females) (pg/mL)
+7/20/22,1,Hsab1,Y,Hypanus sabinus,M,22.4,59.7,4,600,"Not swimming away, hanging out around shore",0.42355,69.832,,,,
+7/20/22,1,Hsab2,Y,Hypanus sabinus,M,18.6,40.4,4,440,"Hanging out, eventually swimming away",0.58605,2.983,,,,
+7/21/22,1,Hsab3,Y,Hypanus sabinus,F,25,62.5,3,400,,,,0.2831,1.395,,
+7/21/22,1,Hsab4,Y,Hypanus sabinus,M,25.4,53.7,4,500,Stabbed Jake,0.5578,3.501,,,,
+7/26/22,1,Hsab5,Y,Hypanus sabinus,F,19.5,48.5,4,400,,,,0.3087,0.389523,,
+7/26/22,2,Hsab6,Y,Hypanus sabinus,M,22.6,56.8,4,500,,0.30735,665.66,,,,
+7/26/22,2,Gmic1,Y,Gymnura micrura,M,32.5,26.5,4,400,,0.342,339.834,,,,
+8/10/22,1,Gmic2,N,Gymnura micrura,M,25.9,18.3,4,100,Total Sample Frozen,1.5337,0,,,,
+8/10/22,2,Hsab7,N,Hypanus sabinus,M,25.5,62.5,4,500,,0.46515,31.15,,,,
+8/10/22,2,Gmic3,N,Gymnura micrura,M,36.6,28.7,4,100,Not enough,0.7859,0,,,,
+8/10/22,2,Gmic4,N,Gymnura micrura,F,26,14.5,4,100,Not Enough,,,,,,
+8/10/22,2,Gmic5,N,Gymnura micrura,M,32,25.5,4,60,Total Sample Frozen,0.4184,77.17,,,,
+8/10/22,3,Hsab8,N,Hypanus sabinus,F,30,68.3,4,520,Large Female,,,0.188,159.75,0.26065,134.687
+8/10/22,4,Hsab9,Y,Hypanus sabinus,F,31.5,73.5,3,N/A,"No blood taken, pregnant female, gave birth",,,,,,
+8/17/22,1,Hsab10,Y,Hypanus sabinus,M,26.6,67.5,2,540,1st use of cooler,0.56495,4.493,,,,
+8/17/22,1,Hame1,Y,Hypanus americanus,F,36.4,69.5,2,740,,,,0.51565,0,0.53325,8.7116
+8/17/22,3,Hsab11,Y,Hypanus sabinus ,F,27.5,63.8,3,640,,,,0.236,14.5996,0.3315,63.726
+8/17/22,3,Gmic6,Y,Gymnura micrura,M,31.4,25.5,2,100,,0.6723,0,,,,
+8/17/22,4,Hsab12,Y,Hypanus sabinus,M,19.8,44.5,4,500,,0.464,31.856,,,,
+8/23/22,1,Gmic7,Y,Gymnura micrura,M,33.4,25.8,4,440,1st use of bucket ,0.4444,46.597,,,,
+8/23/22,2,Hsab13,Y,Hypanus sabinus,F,26,63.9,4,480,,,,0.4377,0,0.2299,183.4313
+8/23/22,2,Gmic8,Y,Gymnura micrura,M,33.2,26.1,4,520,,0.535,8.033,,,,
+8/23/22,2,Gmic9,Y,Gymnura micrura,M,30.2,23.5,3,500,,0.8646,0,,,,
+8/23/22,2,Gmic10,Y,Gymnura micrura,M,37,28.4,3,300,,0.5282,9.166,,,,
+8/23/22,3,Hsab14,Y,Hypanus sabinus,M,24,56,4,660,,0.5748,3.711,,,,
+8/23/22,3,Gmic11,Y,Gymnura micrura,M,35.6,28.5,3,500,,0.458,35.789,,,,
+8/23/22,3,Hsab15,Y,Hypanus sabinus,F,26.3,65.5,3,420,,,,0.25985,4.4467,0.5102,0
+9/2/22,1,LabRay1 (26),Y,Hypanus sabinus,M,26.5,62.5,N/A,400,,0.37595,201,,,,
+9/2/22,1,LabRay2 (26),Y,Hypanus sabinus,F,22.4,63,N/A,520,,,,,,,
+9/2/22,1,LabRay3 (26),Y,Hypanus sabinus,M,28,55,N/A,680,,0.445,50,,,,
+9/2/22,1,LabRay4 (26),y,Hypanus sabinus,M,27,66.5,N/A,560,,0.4266,68,,,,
+9/2/22,2,LabRay5 (21),Y,Hypanus sabinus,M,24.8,62.7,N/A,600,,0.38655,160,,,,
+9/2/22,3,LabRay6 (21),Y,Hypanus sabinus,M,23.5,60.4,N/A,520,,0.38575,163,,,,
+9/21/22,1,LabRay7 (21),Y,Hypanus sabinus,F,21.4,51.3,N/A,600,,,,0.2267,1.199,0.4722,37.17
+10/7/22,1,LabRay8 (21),Y,Hypanus sabinus,M,25,62.6,N/A,560,,0.4683,30,,,,
+10/7/22,1,LabRay9 (16),Y,Hypanus sabinus,F,24.9,56.5,N/A,540,,,,0.103,1162.85,0.5411,20.79
+10/21/22,1,LabRay10 (16),Y,Hypanus sabinus ,M,22.5,57.7,N/A,560,,0.62515,6,,,,
+10/21/22,1,LabRay11 (16),Y,Hypanus sabinus,M,27.3,73.8,N/A,500,,0.5496,0.975,,,,
+10/21/22,1,LabRay12 (16),N,Hypanus sabinus,M,24.6,64.7,N/A,620,,0.66215,0.442,,,,
+11/7/22,1,Gmic12,Y,Gymnura micrura,F,36,26.5,3,250,,,,0.11575,5854.77,0.05465,1066.62
+11/7/22,1,Hsab16,Y,Hypanus sabinus,M,22.5,47,3,500,,0.48565,20.9,,,,
+11/7/22,1,Hsab17,Y,Hypanus sabinus,M (young),18.3,44.5,3,400,,1.31205,0,,,,
