@@ -1,0 +1,62 @@
+---
+title: "Hormonal Response of Elasmobranchs to Temperature Stress"
+author: "Jake Kuenzli"
+date: "2023-03-28"
+output: html_document
+---
+
+
+Reading in data
+
+```{r}
+ray_data <- read.csv(file = "ray_data.csv", na.strings = 'N/A')
+
+head(ray_data)
+summary(ray_data)
+
+class(ray_data)
+
+dim(ray_data)
+
+temp_data <- read.csv(file = "tempdata for r.csv" )
+
+month_data <- read.csv(file = "Month_data_r.csv", na.strings = 'N/A')
+
+
+```
+
+Modeling the temperature data
+```{r}
+
+summary(temp_data)
+boxplot(temp_data, xlab = 'Temperature Group', ylab = 'Testosterone Concentrations (pg/mL)')
+
+tempdata_lm <- lm(temp_data)
+
+
+
+
+
+
+
+
+```
+
+Modeling the monthly concentration data
+```{r}
+summary(month_data)
+
+boxplot(month_data, xlab = 'Month Group', ylab = 'Concentrations (pg/mL)')
+
+
+
+
+
+
+
+
+
+
+
+```
+
