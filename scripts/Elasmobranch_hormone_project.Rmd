@@ -5,11 +5,18 @@ date: "2023-03-28"
 output: html_document
 ---
 
+```{r setup, echo=FALSE}
+# setup the R enviornment for kniting markdown doc properly
+library(knitr)
+opts_knit$set(root.dir='../')
+```
+
 
 Reading in data
 
 ```{r}
-ray_data <- read.csv(file = "ray_data.csv", na.strings = 'N/A')
+library(tidyr)
+ray_data <- read.csv(file = "./data/ray_data.csv", na.strings = 'N/A')
 
 head(ray_data)
 summary(ray_data)
@@ -18,27 +25,31 @@ class(ray_data)
 
 dim(ray_data)
 
-temp_data <- read.csv(file = "tempdata for r.csv" )
+temp_data <- read.csv(file = "./data/tempdata_for_r.csv" )
 
-month_data <- read.csv(file = "Month_data_r.csv", na.strings = 'N/A')
-
-
+month_data <- read.csv(file = "./data/Month_data_r.csv", na.strings = 'N/A')
 ```
+
+
+```{r}
+#restrucure data to long format
+
+temp_lg <- pivot_longer(temp_data, cols = 1:3)
+temps <- sapply(strsplit(temp_lg$name, '.', fixed = TRUE),
+                function(x)x[3])
+temp_lg$temp <- temps
+```
+
 
 Modeling the temperature data
 ```{r}
 
-summary(temp_data)
-boxplot(temp_data, xlab = 'Temperature Group', ylab = 'Testosterone Concentrations (pg/mL)')
+boxplot(value ~ temp, temp_lg, xlab = 'Temperature Group',
+        ylab = 'Testosterone Concentrations (pg/mL)')
 
-tempdata_lm <- lm(temp_data)
-
-
-
-
-
-
-
+tempdata_lm <- lm(value ~ temp, data = temp_lg)
+summary(tempdata_lm)
+anova(tempdata_lm)
 
 ```
 
