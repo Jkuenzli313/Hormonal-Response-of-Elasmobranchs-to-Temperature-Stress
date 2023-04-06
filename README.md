@@ -3,4 +3,4 @@
 # Structure of Code:
 ## All data is in a csv file, script in Rmd files, and figures in png format.
 # Steps for reproducing results:
-## Read in data files, restructure data into longer format, produce linear models for each data set, use lm models to generate anovas to look for significance, and finally generate boxplots for each data set.
+## Read in data files, restructure data into longer format, produce linear models for each data set, use lm models to generate anovas to look for significance, and finally generate box-plots for each data set.
