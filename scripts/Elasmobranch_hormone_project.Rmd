@@ -73,7 +73,7 @@ summary(monthdata_lm)
 # anova of monthly data
 anova(monthdata_lm)
 
-# boxplot of adjusted data
+# boxplot of data
 
 boxplot(month_data, xlab = 'Month Group', ylab = 'Concentrations (pg/mL)')
 
