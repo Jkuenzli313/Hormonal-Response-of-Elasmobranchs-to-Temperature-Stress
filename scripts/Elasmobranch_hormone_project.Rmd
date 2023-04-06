@@ -46,10 +46,16 @@ Modeling the temperature data
 
 boxplot(value ~ temp, temp_lg, xlab = 'Temperature Group',
         ylab = 'Testosterone Concentrations (pg/mL)')
+<<<<<<< HEAD
 # creating linear model of temp_data
 tempdata_lm <- lm(value ~ temp, data = temp_lg)
 summary(tempdata_lm)
 # creating anova of temp_data
+=======
+
+tempdata_lm <- lm(value ~ temp, data = temp_lg)
+summary(tempdata_lm)
+>>>>>>> a8120f9d712da1e28e1ba99e3ff15721715b6ba3
 anova(tempdata_lm)
 
 ```
