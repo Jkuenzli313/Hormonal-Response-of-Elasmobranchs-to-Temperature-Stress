@@ -45,7 +45,8 @@ Modeling the temperature data
 ```{r}
 
 boxplot(value ~ temp, temp_lg, xlab = 'Temperature Group',
-        ylab = 'Testosterone Concentrations (pg/mL)')
+        ylab = 'Testosterone Concentrations (pg/mL)',
+        names = c('Temp Group 26C', 'Temp Group 21C', 'Temp Group 16C'))
 
 # creating linear model of temp_data
 tempdata_lm <- lm(value ~ temp, data = temp_lg)
@@ -81,9 +82,10 @@ anova(monthdata_lm)
 
 # boxplot of data
 
-boxplot(month_data, xlab = 'Month Group', ylab = 'Concentrations (pg/mL)')
-
-
+boxplot(month_data, xlab = 'Month Group', ylab = 'Concentrations (pg/mL)',
+  names = c('July Testosterone', 'August Testosterone', 'November 
+            Testosterone', 'August Estradiol', 'July Progesterone', 'August 
+            Progesterone'))
 
 
 
